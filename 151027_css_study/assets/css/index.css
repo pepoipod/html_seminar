@@ -1,0 +1,49 @@
+body {
+	background: #eee;
+	text-align: center;
+}
+
+p {
+	color: red;
+}
+
+/* titleIDに対して */
+#title {
+	color: red;
+	font-size: 40px;
+	border: solid 5px #000;
+}
+
+/* nameクラスに対して */
+.name {
+	color: blue;
+}
+
+.meat-link a {
+	color: red;
+}
+
+/* imgクラスの中のimgタグに対して */
+.img img {
+	width: 150px;
+	height: 150px;
+}
+
+.likes {
+	list-style: none;
+}
+
+.likes li {
+	float: left;
+	padding-left: 10px;
+}
+
+/*
+
+対象 {
+	あてはめる設定
+
+	プロパティ: 値;
+}
+
+*/

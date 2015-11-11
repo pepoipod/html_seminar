@@ -1,0 +1,60 @@
+/*
+
+C☆S☆S☆のキホン☆
+
+対象 {
+	あてはめる設定
+
+	プロパティ: 値;
+}
+
+*/
+
+
+/* bodyの */
+body {
+	/* 背景に: url()内のパスにある画像を敷いてください。 */
+	background: url(../images/bg.jpg);
+}
+
+/* ulの */
+ul {
+	/* 要素の幅を: 1200pxにします。 */
+	width: 1200px;
+	/* 外側の幅を: 上下0px、左右を自動で設定します。 */
+	margin: 0 auto;
+}
+
+/* liの */
+li {
+	/* リスト形式（左のドット）を: 無くす。 */
+	list-style: none;
+	/* 背景に: カラーコード#000の色を付けてあげる。 */
+	background: #000;
+	/* この要素の形式を: inline-blockにする。 */
+	display: inline-block;
+	/* 文字の色を: #fffにしてあげる。 */
+	color: #fff;
+	/* 行揃えを: 中央揃えにする。 */
+	text-align: center;
+	/* 内側の幅を: 上下10px 左右20px広げる。 */
+	padding: 20px 30px;
+	/* テキストのサイズを: 18pxにします。 */
+	font-size: 18px;
+	/* 要素の幅を: 258pxにします。 */
+	width: 258px;
+	/* 右の外側の幅を20px広げます。 */
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
