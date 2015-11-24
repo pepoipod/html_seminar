@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>プロフィール</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!-- このサイトのヘッダー的部分なのでheaderタグで括る -->
+	<header id="g-header">
+		<!-- このサイトの一番重要な見出しなのでh1 -->
+		<h1>私のプロフィール</h1>
+	</header>
+
+	<!-- このサイトのメインコンテンツ的部分なのでmainタグで括る -->
+	<main>
+		<!-- プロフィールと好きなものはデザイン的にそれぞれ別のブロックなのでsectionで分ける -->
+		<!-- profileのセクションなのでsec-profile -->
+		<section class="sec-profile">
+			<h2>プロフィール</h2>
+
+			<!-- このpの役割はiconみたいなものなので、classにiconとつけてあげる -->
+			<p class="icon"><img src="assets/images/ika.jpg" height="100" width="100" alt="マンメンミ"></p>
+
+			<!-- それぞれがブロックに別れていそうなのでsectionで分けてあげる -->
+			<!-- sec-profileのnameみたいな感じになってわかりやすい！ -->
+			<section class="name">
+				<h3>名前</h3>
+				<p>吉川 未華</p>
+			</section>
+
+			<section class="age">
+				<h3>年齢</h3>
+				<p>19歳</p>
+			</section>
+
+			<section class="birthday">
+				<h3>誕生日</h3>
+				<p>1996.1.31</p>
+			</section>
+		</section>
+
+		<!-- 好きなもののセクションなのでsec-likes -->
+		<section class="sec-likes">
+			<h2>好きなもの</h2>
+
+			<ul>
+				<li>ゲーム</li>
+				<li>コーヒー</li>
+				<li>コーヒー</li>
+				<li>麺</li>
+				<li>コーヒー</li>
+				<li>コーヒー</li>
+			</ul>
+		</section>
+
+		<section class="sec-contact">
+			<h2>Contact</h2>
+
+			<!-- コンタクトの宛先リスト、みたいな考え方もできますね！ -->
+			<ul>
+				<li class="mail">
+					<h3>mail</h3>
+					<p>daikinecmouth@gmail.com</p>
+				</li>
+
+				<li class="blog">
+					<h3>blog</h3>
+					<p>IwamotoBlog</p>
+				</li>
+
+				<li class="github">
+					<h3>github</h3>
+					<p>@pepoipod</p>
+				</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>

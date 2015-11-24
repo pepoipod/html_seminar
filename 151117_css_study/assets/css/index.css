@@ -1,0 +1,42 @@
+/* おまじない */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile {
+	border: 2px solid #000;
+	width: 500px;
+	margin: 150px auto 0;
+}
+
+.profile .icon {
+	/*あとの要素を: 左に寄せてきてよ;*/
+	float: left;
+	margin: 20px;
+}
+
+.profile .name {
+	font-size: 21px;
+	display: inline-block;
+	margin: 57px 0 0 30px;
+}
+
+/*
+
+marginの設定
+
+上/右/下/左/に、margin10pxずつ与える
+margin: 10px;
+
+上/下にmargin10pxずつ、右/左にmargin20px与える
+margin: 10px 20px;
+
+上にmargin10px、右/左にmargin20pxずつ、下にmargin30pxを与える
+margin: 10px 20px 30px;
+
+上にmargin10px、右にmargin20px、下にmargin30px、左にmargin40pxを与える
+margin: 10px 20px 30px 40px;
+
+*/
